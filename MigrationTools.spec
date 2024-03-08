@@ -25,6 +25,8 @@ mkdir -p $RPM_BUILD_ROOT/usr/local/%{name}
 %build
 
 %install
+export RPM_BUILD_ROOT
+mkdir -p $RPM_BUILD_ROOT/usr/local/%{name}
 cp -a migrate_* $RPM_BUILD_ROOT/usr/local/%{name}
 
 %clean
