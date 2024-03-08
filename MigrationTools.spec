@@ -19,6 +19,7 @@ export RPM_BUILD_ROOT
 rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/usr/local/%{name}
+mkdir -p $RPM_BUILD_ROOT/usr/share/doc/%{name}
 
 %setup
 
@@ -27,7 +28,9 @@ mkdir -p $RPM_BUILD_ROOT/usr/local/%{name}
 %install
 export RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/usr/local/%{name}
+mkdir -p $RPM_BUILD_ROOT/usr/share/doc/%{name}
 cp -a migrate_* $RPM_BUILD_ROOT/usr/local/%{name}
+cp -a README.md $RPM_BUILD_ROOT/usr/share/doc/%{name}/README
 
 %clean
 rm -rf $RPM_BUILD_ROOT
