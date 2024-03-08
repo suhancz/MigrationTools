@@ -1,10 +1,10 @@
 Summary: Migration scripts for LDAP
 Name:      MigrationTools
 Version:   42
-Release:   1
+Release:   2
 Source:    ftp://ftp.padl.com/pub/%{name}-%{version}.tar.gz
 URL:       http://www.padl.com/
-Copyright: BSD
+License: BSD
 Group: Networking/Utilities
 BuildRoot: /tmp/rpm-%{name}-root
 Prefix: /usr/local
