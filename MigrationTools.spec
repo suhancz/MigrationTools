@@ -1,6 +1,6 @@
 Summary: Migration scripts for LDAP
 Name:      migrationtools
-Version:   42
+Version:   master
 Release:   2
 Source: https://github.com/suhancz/MigrationTools/archive/refs/heads/master.zip
 URL:       http://www.padl.com/
