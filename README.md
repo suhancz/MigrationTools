@@ -64,3 +64,10 @@ The online scripts use ldapadd.
 
 MigrationTools Copyright (C) 1996-2001 Luke Howard. All rights reserved. 
 Heavily modified for modern Perl environments by Gary Greene
+
+## COPR availability
+Made available for COPR by Akos Balla (suhanc)
+
+```shell
+dnf copr enable suhanc/MigrationTools
+```
